@@ -8,7 +8,7 @@ import (
 	"os"
 	"syscall"
 
-	activation "github.com/coreos/go-systemd/activation"
+	activation "github.com/coreos/go-systemd/v22/activation"
 	manet "github.com/multiformats/go-multiaddr-net"
 )
 
