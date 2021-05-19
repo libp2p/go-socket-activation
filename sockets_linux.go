@@ -9,8 +9,11 @@ import (
 	"syscall"
 
 	activation "github.com/coreos/go-systemd/v22/activation"
+	logging "github.com/ipfs/go-log"
 	manet "github.com/multiformats/go-multiaddr-net"
 )
+
+var log = logging.Logger("socket-activation")
 
 func isListening(file *os.File) (bool, error) {
 	ret, err := syscall.GetsockoptInt(int(file.Fd()), syscall.SOL_SOCKET, syscall.SO_ACCEPTCONN)

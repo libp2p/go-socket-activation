@@ -3,13 +3,11 @@ package sockets
 import (
 	"sync"
 
-	logging "github.com/ipfs/go-log"
 	manet "github.com/multiformats/go-multiaddr-net"
 )
 
 var (
 	mu          sync.Mutex
-	log         = logging.Logger("socket-activation")
 	initFn      = func() {}
 	initialized = false
 	listeners   = make(map[string][]manet.Listener)
