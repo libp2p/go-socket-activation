@@ -3,7 +3,7 @@ package sockets
 import (
 	"sync"
 
-	manet "github.com/multiformats/go-multiaddr-net"
+	manet "github.com/multiformats/go-multiaddr/net"
 )
 
 var (
