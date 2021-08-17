@@ -10,7 +10,7 @@ import (
 
 	activation "github.com/coreos/go-systemd/v22/activation"
 	logging "github.com/ipfs/go-log"
-	manet "github.com/multiformats/go-multiaddr-net"
+	manet "github.com/multiformats/go-multiaddr/net"
 )
 
 var log = logging.Logger("socket-activation")
