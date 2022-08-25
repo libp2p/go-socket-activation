@@ -1,11 +1,10 @@
 //go:build linux
-// +build linux
 
 package sockets
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net"
 	"os"
 	"os/exec"
@@ -79,7 +78,7 @@ func TestActivation(t *testing.T) {
 		if err != nil {
 			t.Fatal(err)
 		}
-		b, err := ioutil.ReadAll(c)
+		b, err := io.ReadAll(c)
 		if err != nil {
 			t.Error(err)
 		}
