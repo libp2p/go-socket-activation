@@ -9,7 +9,7 @@ import (
 	"syscall"
 
 	activation "github.com/coreos/go-systemd/v22/activation"
-	logging "github.com/ipfs/go-log"
+	logging "github.com/ipfs/go-log/v2"
 	manet "github.com/multiformats/go-multiaddr/net"
 )
 
