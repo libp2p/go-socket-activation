@@ -1,6 +1,6 @@
 module github.com/libp2p/go-socket-activation
 
-go 1.23.8
+go 1.24
 
 require (
 	github.com/coreos/go-systemd/v22 v22.5.0
