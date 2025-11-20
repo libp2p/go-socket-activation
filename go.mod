@@ -1,6 +1,6 @@
 module github.com/libp2p/go-socket-activation
 
-go 1.24
+go 1.24.0
 
 require (
 	github.com/coreos/go-systemd/v22 v22.5.0
@@ -22,8 +22,8 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/crypto v0.38.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20250506013437-ce4c2cf36ca6 // indirect
-	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
